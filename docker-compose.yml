@@ -1,0 +1,23 @@
+version: "2.2"
+services:
+  hyperlpr:
+    build: .
+    container_name: hyperlpr
+    volumes:
+      - .:/code
+    # volumes:
+    #   - ./webUI:/var/www/webUI
+    # environment:
+    #   - WEBUI_SERVING_PORT=${WEBUI_SERVING_PORT}
+    #   - SERVER_HOST=${SERVER_HOST}
+    #   - WEBUI_TITLE=${WEBUI_TITLE}
+    #   - API_HOST=${API_HOST}
+    #   - JAVA_API_HOST=${JAVA_API_HOST}
+    #   - BETA_CONTENT=${BETA_CONTENT}
+    #   - DEMO_DATA=${DEMO_DATA}
+    #   - NODE_MODULES_INIT=${NODE_MODULES_INIT}
+    #   - NEED_QUASAR_BUILD=${NEED_QUASAR_BUILD}
+    #   - WEBUI_MODE=${WEBUI_MODE}
+    #   - SESSION_TIME=${SESSION_TIME}
+    # ports:
+    #   - 4000:4000
