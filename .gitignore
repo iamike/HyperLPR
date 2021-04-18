@@ -7,3 +7,5 @@ Prj-Linux/lpr/TEST_*
 Prj-Linux/*build*/
 *.pyc
 /Prj-PHP/build
+/Prj-Linux/cmake-3.10.3/
+/Prj-Linux/opencv-3.4.11/

@@ -3,7 +3,8 @@
 //
 
 #include "../include/Pipeline.h"
-
+#include <unistd.h>
+char *getcwd(char *buf, size_t size);
 
 
 
@@ -107,14 +108,18 @@ void TEST_ACC(){
 
 void TEST_PIPELINE(){
 
-    pr::PipelinePR prc("model/cascade.xml",
-                      "model/HorizonalFinemapping.prototxt","model/HorizonalFinemapping.caffemodel",
-                      "model/Segmentation.prototxt","model/Segmentation.caffemodel",
-                      "model/CharacterRecognization.prototxt","model/CharacterRecognization.caffemodel",
-                       "model/SegmenationFree-Inception.prototxt","model/SegmenationFree-Inception.caffemodel"
+    pr::PipelinePR prc("/code/Prj-Linux/hyperlpr/model/cascade.xml",
+                      "/code/Prj-Linux/hyperlpr/model/HorizonalFinemapping.prototxt",
+                      "/code/Prj-Linux/hyperlpr/model/HorizonalFinemapping.caffemodel",
+                      "/code/Prj-Linux/hyperlpr/model/Segmentation.prototxt",
+                      "/code/Prj-Linux/hyperlpr/model/Segmentation.caffemodel",
+                      "/code/Prj-Linux/hyperlpr/model/CharacterRecognization.prototxt",
+                      "/code/Prj-Linux/hyperlpr/model/CharacterRecognization.caffemodel",
+                       "/code/Prj-Linux/hyperlpr/model/SegmenationFree-Inception.prototxt",
+                       "/code/Prj-Linux/hyperlpr/model/SegmenationFree-Inception.caffemodel"
                     );
 
-    cv::Mat image = cv::imread("/Users/yujinke/ClionProjects/cpp_ocr_demo/test.png");
+    cv::Mat image = cv::imread("/code/Prj-Linux/hyperlpr/tests/test1.jpg");
 
 
     std::vector<pr::PlateInfo> res = prc.RunPiplineAsImage(image,pr::SEGMENTATION_FREE_METHOD);
@@ -140,11 +145,15 @@ void TEST_CAM()
     cv::VideoCapture capture("test1.mp4");
     cv::Mat frame;
 
-    pr::PipelinePR prc("model/cascade.xml",
-                       "model/HorizonalFinemapping.prototxt","model/HorizonalFinemapping.caffemodel",
-                       "model/Segmentation.prototxt","model/Segmentation.caffemodel",
-                       "model/CharacterRecognization.prototxt","model/CharacterRecognization.caffemodel",
-                       "model/SegmentationFree.prototxt","model/SegmentationFree.caffemodel"
+    pr::PipelinePR prc("/code/Prj-Linux/hyperlpr/model/cascade.xml",
+                       "/code/Prj-Linux/hyperlpr/model/HorizonalFinemapping.prototxt",
+                       "/code/Prj-Linux/hyperlpr/model/HorizonalFinemapping.caffemodel",
+                       "/code/Prj-Linux/hyperlpr/model/Segmentation.prototxt",
+                       "/code/Prj-Linux/hyperlpr/model/Segmentation.caffemodel",
+                       "/code/Prj-Linux/hyperlpr/model/CharacterRecognization.prototxt",
+                       "/code/Prj-Linux/hyperlpr/model/CharacterRecognization.caffemodel",
+                       "/code/Prj-Linux/hyperlpr/model/SegmentationFree.prototxt",
+                       "/code/Prj-Linux/hyperlpr/model/SegmentationFree.caffemodel"
     );
 
 
@@ -188,10 +197,17 @@ void TEST_CAM()
 
 int main()
 {
-    TEST_ACC();
+    // TEST_ACC();
 
 //    TEST_CAM();
-//    TEST_PIPELINE();
+   TEST_PIPELINE();
+    // char cwd[PATH_MAX];
+    // if (getcwd(cwd, sizeof(cwd)) != NULL) {
+    //     printf("Current working dir: %s\n", cwd);
+    // } else {
+    //     perror("getcwd() error");
+    //     return 1;
+    // }
 
     return 0 ;
 
