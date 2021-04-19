@@ -1,0 +1,428 @@
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eaa85/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eaa85.dir/build.make CMakeFiles/cmTC_eaa85.dir/build
+make[1]: Entering directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eaa85.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -o CMakeFiles/cmTC_eaa85.dir/src.cxx.o -c /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_eaa85
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eaa85.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_eaa85.dir/src.cxx.o  -o cmTC_eaa85 
+make[1]: Leaving directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7ee96/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7ee96.dir/build.make CMakeFiles/cmTC_7ee96.dir/build
+make[1]: Entering directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7ee96.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -o CMakeFiles/cmTC_7ee96.dir/src.cxx.o -c /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_7ee96
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ee96.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_7ee96.dir/src.cxx.o  -o cmTC_7ee96 
+make[1]: Leaving directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9c6e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9c6e1.dir/build.make CMakeFiles/cmTC_9c6e1.dir/build
+make[1]: Entering directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c6e1.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles/cmTC_9c6e1.dir/src.c.o   -c /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_9c6e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c6e1.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_9c6e1.dir/src.c.o  -o cmTC_9c6e1 
+make[1]: Leaving directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a68f5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a68f5.dir/build.make CMakeFiles/cmTC_a68f5.dir/build
+make[1]: Entering directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a68f5.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wsuggest-override -o CMakeFiles/cmTC_a68f5.dir/src.c.o   -c /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
+/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_a68f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a68f5.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_a68f5.dir/src.c.o  -o cmTC_a68f5 
+make[1]: Leaving directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4fde0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4fde0.dir/build.make CMakeFiles/cmTC_4fde0.dir/build
+make[1]: Entering directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4fde0.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_4fde0.dir/src.c.o   -c /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_4fde0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fde0.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_4fde0.dir/src.c.o  -o cmTC_4fde0 
+make[1]: Leaving directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1019a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1019a.dir/build.make CMakeFiles/cmTC_1019a.dir/build
+make[1]: Entering directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1019a.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_1019a.dir/src.cxx.o -c /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx
+/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking CXX executable cmTC_1019a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1019a.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_1019a.dir/src.cxx.o  -o cmTC_1019a 
+make[1]: Leaving directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa41b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aa41b.dir/build.make CMakeFiles/cmTC_aa41b.dir/build
+make[1]: Entering directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa41b.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_aa41b.dir/src.c.o   -c /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.c
+/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking C executable cmTC_aa41b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa41b.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_aa41b.dir/src.c.o  -o cmTC_aa41b 
+make[1]: Leaving directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4c44a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4c44a.dir/build.make CMakeFiles/cmTC_4c44a.dir/build
+make[1]: Entering directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c44a.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTC_4c44a.dir/src.c.o   -c /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_4c44a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c44a.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_4c44a.dir/src.c.o  -o cmTC_4c44a 
+make[1]: Leaving directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-absolute-value’'
+Compilation failed:
+    source file: '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-absolute-value'
+===== BUILD LOG =====
+Change Dir: /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cd2a4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cd2a4.dir/build.make CMakeFiles/cmTC_cd2a4.dir/build
+make[1]: Entering directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cd2a4.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow -Wno-pointer-compare  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-absolute-value -o CMakeFiles/cmTC_cd2a4.dir/src.c.o   -c /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.c
+/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-absolute-value’
+Linking C executable cmTC_cd2a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd2a4.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow -Wno-pointer-compare  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_cd2a4.dir/src.c.o  -o cmTC_cd2a4 
+make[1]: Leaving directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_44f5c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_44f5c.dir/build.make CMakeFiles/cmTC_44f5c.dir/build
+make[1]: Entering directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44f5c.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_44f5c.dir/CheckIncludeFile.c.o   -c /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: linux/videodev.h: No such file or directory
+ #include <linux/videodev.h>
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_44f5c.dir/build.make:66: CMakeFiles/cmTC_44f5c.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_44f5c/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f4e84/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f4e84.dir/build.make CMakeFiles/cmTC_f4e84.dir/build
+make[1]: Entering directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4e84.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_f4e84.dir/CheckIncludeFile.c.o   -c /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: No such file or directory
+ #include <sys/videoio.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_f4e84.dir/build.make:66: CMakeFiles/cmTC_f4e84.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_f4e84/fast] Error 2
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bdbb7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bdbb7.dir/build.make CMakeFiles/cmTC_bdbb7.dir/build
+make[1]: Entering directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bdbb7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_bdbb7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bdbb7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdbb7.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_bdbb7.dir/CheckFunctionExists.c.o  -o cmTC_bdbb7 
+/usr/bin/ld: CMakeFiles/cmTC_bdbb7.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_bdbb7.dir/build.make:87: cmTC_bdbb7] Error 1
+make[1]: Leaving directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_bdbb7/fast] Error 2
+
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f5cf0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f5cf0.dir/build.make CMakeFiles/cmTC_f5cf0.dir/build
+make[1]: Entering directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f5cf0.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-missing-prototypes -o CMakeFiles/cmTC_f5cf0.dir/src.cxx.o -c /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_f5cf0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5cf0.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_f5cf0.dir/src.cxx.o  -o cmTC_f5cf0 
+make[1]: Leaving directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’'
+Compilation failed:
+    source file: '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a9392/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a9392.dir/build.make CMakeFiles/cmTC_a9392.dir/build
+make[1]: Entering directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a9392.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-tautological-undefined-compare -o CMakeFiles/cmTC_a9392.dir/src.cxx.o -c /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx
+/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’
+Linking CXX executable cmTC_a9392
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9392.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_a9392.dir/src.cxx.o  -o cmTC_a9392 
+make[1]: Leaving directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9c3d4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9c3d4.dir/build.make CMakeFiles/cmTC_9c3d4.dir/build
+make[1]: Entering directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9c3d4.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_9c3d4.dir/src.cxx.o -c /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx
+/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking CXX executable cmTC_9c3d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c3d4.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_9c3d4.dir/src.cxx.o  -o cmTC_9c3d4 
+make[1]: Leaving directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’'
+Compilation failed:
+    source file: '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f769a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f769a.dir/build.make CMakeFiles/cmTC_f769a.dir/build
+make[1]: Entering directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f769a.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-enum-compare-switch -o CMakeFiles/cmTC_f769a.dir/src.cxx.o -c /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx
+/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’
+Linking CXX executable cmTC_f769a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f769a.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_f769a.dir/src.cxx.o  -o cmTC_f769a 
+make[1]: Leaving directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’'
+Compilation failed:
+    source file: '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e1ab/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e1ab.dir/build.make CMakeFiles/cmTC_1e1ab.dir/build
+make[1]: Entering directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1e1ab.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-inconsistent-missing-override -o CMakeFiles/cmTC_1e1ab.dir/src.cxx.o -c /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx
+/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’
+Linking CXX executable cmTC_1e1ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e1ab.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_1e1ab.dir/src.cxx.o  -o cmTC_1e1ab 
+make[1]: Leaving directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’'
+Compilation failed:
+    source file: '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-private-field'
+===== BUILD LOG =====
+Change Dir: /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20725/fast"
+/usr/bin/make -f CMakeFiles/cmTC_20725.dir/build.make CMakeFiles/cmTC_20725.dir/build
+make[1]: Entering directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_20725.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-deprecated-declarations -Wno-overloaded-virtual  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-unused-private-field -o CMakeFiles/cmTC_20725.dir/src.cxx.o -c /code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx
+/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’
+Linking CXX executable cmTC_20725
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20725.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-deprecated-declarations -Wno-overloaded-virtual  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_20725.dir/src.cxx.o  -o cmTC_20725 
+make[1]: Leaving directory '/code/Prj-Linux/opencv-3.4.11/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+

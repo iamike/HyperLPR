@@ -5,6 +5,7 @@
 # Build files
 Prj-Linux/lpr/TEST_*
 Prj-Linux/hyperlpr/TEST_*
+Prj-Linux/hyperlpr/tests
 Prj-Linux/*build*/
 *.pyc
 /Prj-PHP/build
