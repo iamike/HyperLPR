@@ -108,18 +108,18 @@ void TEST_ACC(){
 
 void TEST_PIPELINE(){
 
-    pr::PipelinePR prc("/code/Prj-Linux/hyperlpr/model/cascade.xml",
-                      "/code/Prj-Linux/hyperlpr/model/HorizonalFinemapping.prototxt",
-                      "/code/Prj-Linux/hyperlpr/model/HorizonalFinemapping.caffemodel",
-                      "/code/Prj-Linux/hyperlpr/model/Segmentation.prototxt",
-                      "/code/Prj-Linux/hyperlpr/model/Segmentation.caffemodel",
-                      "/code/Prj-Linux/hyperlpr/model/CharacterRecognization.prototxt",
-                      "/code/Prj-Linux/hyperlpr/model/CharacterRecognization.caffemodel",
-                       "/code/Prj-Linux/hyperlpr/model/SegmenationFree-Inception.prototxt",
-                       "/code/Prj-Linux/hyperlpr/model/SegmenationFree-Inception.caffemodel"
+    pr::PipelinePR prc("../hyperlpr/model/cascade.xml",
+                      "../hyperlpr/model/HorizonalFinemapping.prototxt",
+                      "../hyperlpr/model/HorizonalFinemapping.caffemodel",
+                      "../hyperlpr/model/Segmentation.prototxt",
+                      "../hyperlpr/model/Segmentation.caffemodel",
+                      "../hyperlpr/model/CharacterRecognization.prototxt",
+                      "../hyperlpr/model/CharacterRecognization.caffemodel",
+                       "../hyperlpr/model/SegmenationFree-Inception.prototxt",
+                       "../hyperlpr/model/SegmenationFree-Inception.caffemodel"
                     );
 
-    cv::Mat image = cv::imread("/code/Prj-Linux/hyperlpr/tests/test1.jpg");
+    cv::Mat image = cv::imread("../hyperlpr/tests/test1.jpg");
 
 
     std::vector<pr::PlateInfo> res = prc.RunPiplineAsImage(image,pr::SEGMENTATION_FREE_METHOD);
@@ -145,15 +145,15 @@ void TEST_CAM()
     cv::VideoCapture capture("test1.mp4");
     cv::Mat frame;
 
-    pr::PipelinePR prc("/code/Prj-Linux/hyperlpr/model/cascade.xml",
-                       "/code/Prj-Linux/hyperlpr/model/HorizonalFinemapping.prototxt",
-                       "/code/Prj-Linux/hyperlpr/model/HorizonalFinemapping.caffemodel",
-                       "/code/Prj-Linux/hyperlpr/model/Segmentation.prototxt",
-                       "/code/Prj-Linux/hyperlpr/model/Segmentation.caffemodel",
-                       "/code/Prj-Linux/hyperlpr/model/CharacterRecognization.prototxt",
-                       "/code/Prj-Linux/hyperlpr/model/CharacterRecognization.caffemodel",
-                       "/code/Prj-Linux/hyperlpr/model/SegmentationFree.prototxt",
-                       "/code/Prj-Linux/hyperlpr/model/SegmentationFree.caffemodel"
+    pr::PipelinePR prc("../hyperlpr/model/cascade.xml",
+                       "../hyperlpr/model/HorizonalFinemapping.prototxt",
+                       "../hyperlpr/model/HorizonalFinemapping.caffemodel",
+                       "../hyperlpr/model/Segmentation.prototxt",
+                       "../hyperlpr/model/Segmentation.caffemodel",
+                       "../hyperlpr/model/CharacterRecognization.prototxt",
+                       "../hyperlpr/model/CharacterRecognization.caffemodel",
+                       "../hyperlpr/model/SegmentationFree.prototxt",
+                       "../hyperlpr/model/SegmentationFree.caffemodel"
     );
 
 
